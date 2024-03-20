@@ -1,0 +1,50 @@
+.li-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.classify-list {
+  display: flex;
+}
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.head {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.head2 {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.const {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 14px;
+}
+
+.delete-style {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
